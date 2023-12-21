@@ -1,0 +1,100 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  height: 100vh;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  background-color: rgb(255, 248, 225);
+}
+
+.card{
+  display: grid;
+  grid-template-columns: 2.2fr 3fr;
+  
+  border-radius: 12px;
+  width: 25rem;
+  height: 15rem;
+  background-color: rgb(255, 255, 255);
+}
+
+.image{
+  overflow-y: hidden;
+  background-color: black;
+  border-top-left-radius: inherit;
+  border-bottom-left-radius: inherit;
+  
+}
+
+
+.mug{
+  width: 100%;
+  border-top-left-radius: inherit;
+  border-bottom-left-radius: inherit;
+}
+
+.content{
+  padding: 1rem;
+  
+  border-top-right-radius: inherit;
+  border-bottom-right-radius: inherit;
+}
+
+.text{
+  color: black;
+}
+
+#titel{
+  letter-spacing: 0.35rem;
+  color: rgb(69, 69, 69);
+}
+
+#heading{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.5rem;
+  color: rgb(143, 68, 22);
+  word-spacing: 0.3rem;
+}
+
+p{
+  text-align: justify;
+  color: rgba(77, 77, 77, 0.941);
+  font-size: 0.8rem;
+  
+}
+
+.button{
+  display: flex;
+  border-radius: 8px;
+  margin-top: 1rem;
+  background-color: rgb(23, 91, 40);
+  color: white;
+  height: 1.5rem;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
