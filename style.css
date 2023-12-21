@@ -15,7 +15,7 @@
 .card{
   display: grid;
   grid-template-columns: 2.2fr 3fr;
-  
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.593);
   border-radius: 12px;
   width: 25rem;
   height: 15rem;
